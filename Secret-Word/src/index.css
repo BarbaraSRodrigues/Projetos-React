@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9D0FF;
+}
+
+button {
+    background-color: white;
+    border-color: #B35DFF;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.endButton, .startButton{
+    align-items: center;
+    margin-top: 200px;
+    padding: 10px 30px;
+    font-weight: 10px;
+    font-size: 30px;
+    transition-duration: 500ms;
+}
+
+.endButton:hover, .startButton:hover{
+    transition-duration: 500ms;
+    transform: scale(1.2);
+}
